@@ -1,0 +1,141 @@
+/* big tablets to 1200px (width smaller than 1140px)*/
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+    .row{ 
+        width: 100%;
+        padding: 0 2%;
+        margin: 0;
+    }
+}
+
+/* small tablets to big tablets: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+    html{font-size: 18px;}
+    section{padding: 40px 0;}
+    h1{font-size: 220%;}
+    .long-para {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .steps-box:first-child img{width: 50%;}
+    .android-btn{height: 50px;}
+    .ios-btn{height: 50px;}
+    .feature{font-size: 90%;}
+    .plan-box{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .options{font-size: 95%;}
+    .plan-box div:last-of-type{margin-top: 20px;}
+    form{
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+
+/* small phones to small tablets : from 481px to 767px */
+@media only screen and (max-width: 767px) {
+     
+    .mob-nav{display: block;}
+    .main-nav{display: none;}
+    .main-nav{
+        float: left;
+        margin-top: 25px;
+    }
+    .stick-nav .main-nav li a:link,
+    .stick-nav .main-nav li a:visited{
+        padding: 7px 0;
+    }
+    .stick-nav .main-nav li a:hover,
+    .stick-nav .main-nav li a:active{
+        color: var(--darker-color);
+    }
+    .stick-nav .mob-nav{color: #555;}
+    .stick-nav .mob-nav{margin-top:10px;}
+    .main-nav li{display: block;}
+    .main-nav li a:link
+    ,.main-nav li a:visited{
+        display: block;
+        border: 0;
+        padding: 7px 0;
+    }
+    .main-nav li a:hover
+    ,.main-nav li a:active{
+        color: var(--darker-color);
+    }
+
+    html{font-size: 16px;}
+    section{padding: 20px 0;}
+    .col{
+        width: 100%;
+        margin-left: 0;
+    }
+    .hero-text-box {padding: 0 4%;}
+    .row{padding: 0 4%;}
+    h1{font-size: 200%;}
+    h2{font-size: 140%;}
+    .long-para {
+        width: 100%;
+        margin-left: 0%;
+        line-height: 130%;
+        font-size: 100%;
+    }
+    .big-icon{font-size: 350%;}
+    .feature{text-align: center;}
+    .feature p{
+        width:80%;
+        margin: 0 auto;
+    }
+    .steps-box:first-child img{width: 30%;}
+    .col.steps-box{
+        margin: 0 0 5% 0;
+        padding:0;
+        text-align: center;
+    }
+    .col.steps-box .step-work{text-align: left;}
+    .step-work{
+        margin-bottom: 15px;
+        height: 40px;
+    }
+    .step-work div{
+        width: 40px;
+        height: 40px;
+    }
+    .step-work p{padding-top: 10px;}
+    .city figure img{
+        width: 70%;
+    }
+    .city{text-align: center;}
+    .city h3{
+        width:70%;
+        margin: 0 auto;
+    }
+     .city-detail{
+         width:50%;
+        margin: 10px auto 0 auto;
+        text-align: left;
+     }   
+     .footer-nav{
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .social-links{
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 25px;
+    }
+}
+
+/* small phones from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    form{
+        width: 100%;
+        margin: 0;
+    }
+}
